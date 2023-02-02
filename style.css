@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.container1 {
+    max-width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    font-size: 25px;
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 2px solid black;
+    margin: 2px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px 0 10px 0;
+    transition: 0.2s ease-in-out;
+}
+
+.pagination a.active {
+    background-color: green;
+    border: 2px solid green;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #a8a7a7;
+    border: 2px solid #a8a7a7;
+}
+
+.container2 {
+    background-color: #afeed5;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+
+.newspaper {
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-fill: balance;
+    resize: both;
+    overflow: auto;
+}
